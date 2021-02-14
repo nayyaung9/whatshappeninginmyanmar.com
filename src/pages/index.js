@@ -11,14 +11,9 @@ export default function Home({ data }) {
   return (
     <Layout>
       <SEO />
-      <h3 className="text-center">What is happening in Myanmar?</h3>
-      <img
-        src="https://ichef.bbci.co.uk/live-experience/cps/1680/cpsprodpb/32C1/production/_116939921_149979763_181155617133555_3277602999116746358_n.jpg"
-        alt="banner"
-        style={{ width: "100%" }}
-      />
-      <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-        <h4>Recent News</h4>
+
+      <div style={{ maxWidth: "1400px", margin: "0 auto", marginTop: 80 }}>
+        <h3>Recent News</h3>
         <div className="post__container">
           {posts &&
             posts.edges.map(({ node }, index) => {

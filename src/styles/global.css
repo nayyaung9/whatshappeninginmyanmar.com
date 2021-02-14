@@ -20,3 +20,17 @@ body {
 .p2 {
   padding: 20px 0;
 }
+
+.app_banner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  background-image: url("https://shaung-dicktator.web.app/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

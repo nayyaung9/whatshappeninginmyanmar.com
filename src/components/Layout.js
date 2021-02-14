@@ -8,6 +8,8 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <Toolbar />
+
+      <div className="app_banner" />
       <Container>{children}</Container>
       <Footer />
     </>

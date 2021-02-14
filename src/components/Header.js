@@ -17,12 +17,14 @@ const useStyles = makeStyles(theme => ({
     background: "#fff",
     color: "#000",
     boxShadow: "0 0 9px 3px rgba(41,41,41,.25)",
+    alignItems: "center",
   },
   menuButton: {
     marginRight: theme.spacing(2),
   },
   title: {
     flexGrow: 1,
+    fontFamily: "Poppins",
   },
 }))
 
@@ -39,9 +41,10 @@ export default function Header() {
               className={classes.menuButton}
             />
             <Typography variant="h6" className={classes.title}>
-              Myanmar Now What?
+              Myanmar News
             </Typography>
-            <Button color="inherit">News</Button>
+            <Button color="inherit">Resistance</Button>
+            <Button color="inherit">Map</Button>
           </Toolbar>
         </Container>
       </AppBar>

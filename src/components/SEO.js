@@ -15,20 +15,20 @@ const SEO = ({ post }) => {
   return (
     <Helmet>
       <meta charSet="utf-8" />
-      <link rel="icon" href="favicon.jpg" />
+      <link rel="icon" href="./favicon.png" />
       <title>{site.siteMetadata.title}</title>
 
       <meta
         property="og:title"
-        content={post ? post.frontmatter.title : "Get X"}
+        content={post ? post.frontmatter.title : "What is happening in Myanmar"}
       />
       <meta
         property="og:description"
-        content={post ? post.excerpt : "အထွေထွေ ဗဟုသုတ စုစည်းရာ"}
+        content={post ? post.excerpt : "Once you read it, you have to know everything"}
       />
       <meta
         property="og:image"
-        content={post ? post.frontmatter.image : "favicon.jpg"}
+        content={post ? post.frontmatter.image : "favicon.png"}
       />
     </Helmet>
   )
