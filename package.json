@@ -14,13 +14,16 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "gatsby": "^2.26.1",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-source-filesystem": "^2.11.0",
     "gatsby-transformer-remark": "^2.16.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "sass": "^1.32.7"
   },
   "devDependencies": {
     "prettier": "2.2.1"

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://mmwebfonts.comquas.com/fonts/?font=pyidaungsu");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+body {
+  font-family: "Poppins", "Pyidaungsu", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p2 {
+  padding: 20px 0;
+}

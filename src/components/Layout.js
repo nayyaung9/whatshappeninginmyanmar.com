@@ -1,10 +1,16 @@
 import React from "react"
+import Header from "./Header"
+import Footer from "./Footer"
+import { Container, Toolbar } from "@material-ui/core"
 
 const Layout = ({ children }) => {
   return (
-    <React.Fragment>
-      {children}
-    </React.Fragment>
+    <>
+      <Header />
+      <Toolbar />
+      <Container>{children}</Container>
+      <Footer />
+    </>
   )
 }
 

@@ -1,23 +1,10 @@
 ---
-slug: "/myanmar-mcoup:Fear-and-defiance-at-night-time-arrests"
+slug: "australian-open-naomi-osaka-and-serena-williams-into-last-eight"
 date: "2020-02-14"
-title: "Myanmar coup: Fear and defiance at night-time arrests"
-image: "https://ichef.bbci.co.uk/news/976/cpsprodpb/116B0/production/_116944317_gettyimages-1301914004-1.jpg"
+title: "Australian Open: Naomi Osaka and Serena Williams into last eight"
+image: "https://ichef.bbci.co.uk/news/660/cpsprodpb/13852/production/_116945997_kmw_1799-01.jpg"
 ---
 
-<div style=" position: relative;
-  width: 100%;
-  overflow: hidden;
-  padding-top: 56.25%;">
-<iframe style="  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  border: none;" frameborder="0" src="https://www.bbc.com/news/av-embeds/56054978/vpid/p096tfd9"></iframe>
-</div>
 <b>People in Myanmar are reacting with defiance as authorities use night-time raids to arrest opponents of the military coup.</b>
 
 <p>

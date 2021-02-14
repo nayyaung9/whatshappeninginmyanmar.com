@@ -7,7 +7,6 @@ export default function Template({ data }) {
   return (
     <Layout>
       <div>
-        <h1>BLog Detail</h1>
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
