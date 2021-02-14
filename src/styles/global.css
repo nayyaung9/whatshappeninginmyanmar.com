@@ -34,3 +34,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.linkHref_as_text {
+  text-decoration: none;
+  color: #333;
+  text-transform: capitalize !important;
+  margin-right: 12px;
+}

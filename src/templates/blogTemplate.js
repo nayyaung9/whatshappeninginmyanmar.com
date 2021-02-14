@@ -1,15 +1,16 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Container } from "@material-ui/core";
 import Layout from "../components/Layout"
 
 export default function Template({ data }) {
   const post = data.markdownRemark
   return (
     <Layout>
-      <div>
+      <Container>
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </div>
+      </Container>
     </Layout>
   )
 }
