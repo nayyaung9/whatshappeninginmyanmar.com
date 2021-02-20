@@ -24,7 +24,7 @@ export default function Home({ data }) {
                       <img
                         src={node.frontmatter.image}
                         alt={node.frontmatter.title}
-                        style={{ width: "100%" }}
+                        style={{ width: "100%", height: 240, objectFit: "cover" }}
                       />
                     </Link>
                     <div className="post__body">
@@ -47,7 +47,9 @@ export default function Home({ data }) {
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
       edges {
         node {
           id
